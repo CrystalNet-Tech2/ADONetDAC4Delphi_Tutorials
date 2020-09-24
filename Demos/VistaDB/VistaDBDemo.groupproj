@@ -1,0 +1,192 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{81771F12-9F9F-462F-B5AE-A5AD9C24B368}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="MetaInfo\Indices\Meta_Indices.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="MetaInfo\Tables\Meta_Tables.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TVistaDBCommand\Main\Commands.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TVistaDBConnection\GetFieldNames\GetFieldNames.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TVistaDBConnection\Transactions\Transactions.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TVistaDBDataAdapter\Main\DataAdapter.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TVistaDBDataReader\Main\DataReader.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TVistaDBQuery\Aggregates\Aggregates.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TVistaDBQuery\CachedUpdates\Qry_CachedUpdates.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TVistaDBQuery\Filter\Filter.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TVistaDBQuery\LiveUpdates\Qry_LiveUpdates.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TVistaDBQuery\MasterDetail\MasterDetail.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TVistaDBTable\CachedUpdates\Tab_CachedUpdates.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TVistaDBTable\LiveUpdates\Tab_LiveUpdates.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Meta_Indices">
+        <MSBuild Projects="MetaInfo\Indices\Meta_Indices.dproj"/>
+    </Target>
+    <Target Name="Meta_Indices:Clean">
+        <MSBuild Projects="MetaInfo\Indices\Meta_Indices.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Meta_Indices:Make">
+        <MSBuild Projects="MetaInfo\Indices\Meta_Indices.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Meta_Tables">
+        <MSBuild Projects="MetaInfo\Tables\Meta_Tables.dproj"/>
+    </Target>
+    <Target Name="Meta_Tables:Clean">
+        <MSBuild Projects="MetaInfo\Tables\Meta_Tables.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Meta_Tables:Make">
+        <MSBuild Projects="MetaInfo\Tables\Meta_Tables.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Commands">
+        <MSBuild Projects="TVistaDBCommand\Main\Commands.dproj"/>
+    </Target>
+    <Target Name="Commands:Clean">
+        <MSBuild Projects="TVistaDBCommand\Main\Commands.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Commands:Make">
+        <MSBuild Projects="TVistaDBCommand\Main\Commands.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="GetFieldNames">
+        <MSBuild Projects="TVistaDBConnection\GetFieldNames\GetFieldNames.dproj"/>
+    </Target>
+    <Target Name="GetFieldNames:Clean">
+        <MSBuild Projects="TVistaDBConnection\GetFieldNames\GetFieldNames.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GetFieldNames:Make">
+        <MSBuild Projects="TVistaDBConnection\GetFieldNames\GetFieldNames.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Transactions">
+        <MSBuild Projects="TVistaDBConnection\Transactions\Transactions.dproj"/>
+    </Target>
+    <Target Name="Transactions:Clean">
+        <MSBuild Projects="TVistaDBConnection\Transactions\Transactions.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Transactions:Make">
+        <MSBuild Projects="TVistaDBConnection\Transactions\Transactions.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DataAdapter">
+        <MSBuild Projects="TVistaDBDataAdapter\Main\DataAdapter.dproj"/>
+    </Target>
+    <Target Name="DataAdapter:Clean">
+        <MSBuild Projects="TVistaDBDataAdapter\Main\DataAdapter.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DataAdapter:Make">
+        <MSBuild Projects="TVistaDBDataAdapter\Main\DataAdapter.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DataReader">
+        <MSBuild Projects="TVistaDBDataReader\Main\DataReader.dproj"/>
+    </Target>
+    <Target Name="DataReader:Clean">
+        <MSBuild Projects="TVistaDBDataReader\Main\DataReader.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DataReader:Make">
+        <MSBuild Projects="TVistaDBDataReader\Main\DataReader.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Aggregates">
+        <MSBuild Projects="TVistaDBQuery\Aggregates\Aggregates.dproj"/>
+    </Target>
+    <Target Name="Aggregates:Clean">
+        <MSBuild Projects="TVistaDBQuery\Aggregates\Aggregates.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Aggregates:Make">
+        <MSBuild Projects="TVistaDBQuery\Aggregates\Aggregates.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Qry_CachedUpdates">
+        <MSBuild Projects="TVistaDBQuery\CachedUpdates\Qry_CachedUpdates.dproj"/>
+    </Target>
+    <Target Name="Qry_CachedUpdates:Clean">
+        <MSBuild Projects="TVistaDBQuery\CachedUpdates\Qry_CachedUpdates.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Qry_CachedUpdates:Make">
+        <MSBuild Projects="TVistaDBQuery\CachedUpdates\Qry_CachedUpdates.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Filter">
+        <MSBuild Projects="TVistaDBQuery\Filter\Filter.dproj"/>
+    </Target>
+    <Target Name="Filter:Clean">
+        <MSBuild Projects="TVistaDBQuery\Filter\Filter.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Filter:Make">
+        <MSBuild Projects="TVistaDBQuery\Filter\Filter.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Qry_LiveUpdates">
+        <MSBuild Projects="TVistaDBQuery\LiveUpdates\Qry_LiveUpdates.dproj"/>
+    </Target>
+    <Target Name="Qry_LiveUpdates:Clean">
+        <MSBuild Projects="TVistaDBQuery\LiveUpdates\Qry_LiveUpdates.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Qry_LiveUpdates:Make">
+        <MSBuild Projects="TVistaDBQuery\LiveUpdates\Qry_LiveUpdates.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MasterDetail">
+        <MSBuild Projects="TVistaDBQuery\MasterDetail\MasterDetail.dproj"/>
+    </Target>
+    <Target Name="MasterDetail:Clean">
+        <MSBuild Projects="TVistaDBQuery\MasterDetail\MasterDetail.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MasterDetail:Make">
+        <MSBuild Projects="TVistaDBQuery\MasterDetail\MasterDetail.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Tab_CachedUpdates">
+        <MSBuild Projects="TVistaDBTable\CachedUpdates\Tab_CachedUpdates.dproj"/>
+    </Target>
+    <Target Name="Tab_CachedUpdates:Clean">
+        <MSBuild Projects="TVistaDBTable\CachedUpdates\Tab_CachedUpdates.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Tab_CachedUpdates:Make">
+        <MSBuild Projects="TVistaDBTable\CachedUpdates\Tab_CachedUpdates.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Tab_LiveUpdates">
+        <MSBuild Projects="TVistaDBTable\LiveUpdates\Tab_LiveUpdates.dproj"/>
+    </Target>
+    <Target Name="Tab_LiveUpdates:Clean">
+        <MSBuild Projects="TVistaDBTable\LiveUpdates\Tab_LiveUpdates.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Tab_LiveUpdates:Make">
+        <MSBuild Projects="TVistaDBTable\LiveUpdates\Tab_LiveUpdates.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Meta_Indices;Meta_Tables;Commands;GetFieldNames;Transactions;DataAdapter;DataReader;Aggregates;Qry_CachedUpdates;Filter;Qry_LiveUpdates;MasterDetail;Tab_CachedUpdates;Tab_LiveUpdates"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Meta_Indices:Clean;Meta_Tables:Clean;Commands:Clean;GetFieldNames:Clean;Transactions:Clean;DataAdapter:Clean;DataReader:Clean;Aggregates:Clean;Qry_CachedUpdates:Clean;Filter:Clean;Qry_LiveUpdates:Clean;MasterDetail:Clean;Tab_CachedUpdates:Clean;Tab_LiveUpdates:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Meta_Indices:Make;Meta_Tables:Make;Commands:Make;GetFieldNames:Make;Transactions:Make;DataAdapter:Make;DataReader:Make;Aggregates:Make;Qry_CachedUpdates:Make;Filter:Make;Qry_LiveUpdates:Make;MasterDetail:Make;Tab_CachedUpdates:Make;Tab_LiveUpdates:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
