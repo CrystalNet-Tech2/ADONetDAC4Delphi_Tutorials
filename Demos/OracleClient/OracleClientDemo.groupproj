@@ -1,0 +1,228 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{1C917928-2A4F-41DC-BD1A-6BDB8B3E14A5}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="MetaInfo\Indices\Meta_Indices.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="MetaInfo\StoredProc\Meta_StoredProc.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="MetaInfo\Tables\Meta_Tables.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TOracleClientCommand\Main\Commands.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TOracleClientConnection\GetFieldNames\GetFieldNames.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TOracleClientConnection\Transactions\Transactions.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TOracleClientDataAdapter\Main\DataAdapter.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TOracleClientDataReader\Main\DataReader.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TOracleClientQuery\Aggregates\Aggregates.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TOracleClientQuery\Blobs\Blobs.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TOracleClientQuery\Filter\Filter.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TOracleClientQuery\MasterDetail\MasterDetail.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TOracleClientQuery\OnFetchProgress\FetchData.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TOracleClientQuery\CachedUpdates\Qry_CachedUpdates.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TOracleClientQuery\LiveUpdates\Qry_LiveUpdates.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TOracleClientTable\CachedUpdates\Tab_CachedUpdates.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TOracleClientTable\LiveUpdates\Tab_LiveUpdates.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Meta_Indices">
+        <MSBuild Projects="MetaInfo\Indices\Meta_Indices.dproj"/>
+    </Target>
+    <Target Name="Meta_Indices:Clean">
+        <MSBuild Projects="MetaInfo\Indices\Meta_Indices.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Meta_Indices:Make">
+        <MSBuild Projects="MetaInfo\Indices\Meta_Indices.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Meta_StoredProc">
+        <MSBuild Projects="MetaInfo\StoredProc\Meta_StoredProc.dproj"/>
+    </Target>
+    <Target Name="Meta_StoredProc:Clean">
+        <MSBuild Projects="MetaInfo\StoredProc\Meta_StoredProc.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Meta_StoredProc:Make">
+        <MSBuild Projects="MetaInfo\StoredProc\Meta_StoredProc.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Meta_Tables">
+        <MSBuild Projects="MetaInfo\Tables\Meta_Tables.dproj"/>
+    </Target>
+    <Target Name="Meta_Tables:Clean">
+        <MSBuild Projects="MetaInfo\Tables\Meta_Tables.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Meta_Tables:Make">
+        <MSBuild Projects="MetaInfo\Tables\Meta_Tables.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Commands">
+        <MSBuild Projects="TOracleClientCommand\Main\Commands.dproj"/>
+    </Target>
+    <Target Name="Commands:Clean">
+        <MSBuild Projects="TOracleClientCommand\Main\Commands.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Commands:Make">
+        <MSBuild Projects="TOracleClientCommand\Main\Commands.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="GetFieldNames">
+        <MSBuild Projects="TOracleClientConnection\GetFieldNames\GetFieldNames.dproj"/>
+    </Target>
+    <Target Name="GetFieldNames:Clean">
+        <MSBuild Projects="TOracleClientConnection\GetFieldNames\GetFieldNames.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GetFieldNames:Make">
+        <MSBuild Projects="TOracleClientConnection\GetFieldNames\GetFieldNames.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Transactions">
+        <MSBuild Projects="TOracleClientConnection\Transactions\Transactions.dproj"/>
+    </Target>
+    <Target Name="Transactions:Clean">
+        <MSBuild Projects="TOracleClientConnection\Transactions\Transactions.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Transactions:Make">
+        <MSBuild Projects="TOracleClientConnection\Transactions\Transactions.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DataAdapter">
+        <MSBuild Projects="TOracleClientDataAdapter\Main\DataAdapter.dproj"/>
+    </Target>
+    <Target Name="DataAdapter:Clean">
+        <MSBuild Projects="TOracleClientDataAdapter\Main\DataAdapter.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DataAdapter:Make">
+        <MSBuild Projects="TOracleClientDataAdapter\Main\DataAdapter.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DataReader">
+        <MSBuild Projects="TOracleClientDataReader\Main\DataReader.dproj"/>
+    </Target>
+    <Target Name="DataReader:Clean">
+        <MSBuild Projects="TOracleClientDataReader\Main\DataReader.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DataReader:Make">
+        <MSBuild Projects="TOracleClientDataReader\Main\DataReader.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Aggregates">
+        <MSBuild Projects="TOracleClientQuery\Aggregates\Aggregates.dproj"/>
+    </Target>
+    <Target Name="Aggregates:Clean">
+        <MSBuild Projects="TOracleClientQuery\Aggregates\Aggregates.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Aggregates:Make">
+        <MSBuild Projects="TOracleClientQuery\Aggregates\Aggregates.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Blobs">
+        <MSBuild Projects="TOracleClientQuery\Blobs\Blobs.dproj"/>
+    </Target>
+    <Target Name="Blobs:Clean">
+        <MSBuild Projects="TOracleClientQuery\Blobs\Blobs.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Blobs:Make">
+        <MSBuild Projects="TOracleClientQuery\Blobs\Blobs.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Filter">
+        <MSBuild Projects="TOracleClientQuery\Filter\Filter.dproj"/>
+    </Target>
+    <Target Name="Filter:Clean">
+        <MSBuild Projects="TOracleClientQuery\Filter\Filter.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Filter:Make">
+        <MSBuild Projects="TOracleClientQuery\Filter\Filter.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MasterDetail">
+        <MSBuild Projects="TOracleClientQuery\MasterDetail\MasterDetail.dproj"/>
+    </Target>
+    <Target Name="MasterDetail:Clean">
+        <MSBuild Projects="TOracleClientQuery\MasterDetail\MasterDetail.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MasterDetail:Make">
+        <MSBuild Projects="TOracleClientQuery\MasterDetail\MasterDetail.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="FetchData">
+        <MSBuild Projects="TOracleClientQuery\OnFetchProgress\FetchData.dproj"/>
+    </Target>
+    <Target Name="FetchData:Clean">
+        <MSBuild Projects="TOracleClientQuery\OnFetchProgress\FetchData.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FetchData:Make">
+        <MSBuild Projects="TOracleClientQuery\OnFetchProgress\FetchData.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Qry_CachedUpdates">
+        <MSBuild Projects="TOracleClientQuery\CachedUpdates\Qry_CachedUpdates.dproj"/>
+    </Target>
+    <Target Name="Qry_CachedUpdates:Clean">
+        <MSBuild Projects="TOracleClientQuery\CachedUpdates\Qry_CachedUpdates.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Qry_CachedUpdates:Make">
+        <MSBuild Projects="TOracleClientQuery\CachedUpdates\Qry_CachedUpdates.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Qry_LiveUpdates">
+        <MSBuild Projects="TOracleClientQuery\LiveUpdates\Qry_LiveUpdates.dproj"/>
+    </Target>
+    <Target Name="Qry_LiveUpdates:Clean">
+        <MSBuild Projects="TOracleClientQuery\LiveUpdates\Qry_LiveUpdates.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Qry_LiveUpdates:Make">
+        <MSBuild Projects="TOracleClientQuery\LiveUpdates\Qry_LiveUpdates.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Tab_CachedUpdates">
+        <MSBuild Projects="TOracleClientTable\CachedUpdates\Tab_CachedUpdates.dproj"/>
+    </Target>
+    <Target Name="Tab_CachedUpdates:Clean">
+        <MSBuild Projects="TOracleClientTable\CachedUpdates\Tab_CachedUpdates.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Tab_CachedUpdates:Make">
+        <MSBuild Projects="TOracleClientTable\CachedUpdates\Tab_CachedUpdates.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Tab_LiveUpdates">
+        <MSBuild Projects="TOracleClientTable\LiveUpdates\Tab_LiveUpdates.dproj"/>
+    </Target>
+    <Target Name="Tab_LiveUpdates:Clean">
+        <MSBuild Projects="TOracleClientTable\LiveUpdates\Tab_LiveUpdates.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Tab_LiveUpdates:Make">
+        <MSBuild Projects="TOracleClientTable\LiveUpdates\Tab_LiveUpdates.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Meta_Indices;Meta_StoredProc;Meta_Tables;Commands;GetFieldNames;Transactions;DataAdapter;DataReader;Aggregates;Blobs;Filter;MasterDetail;FetchData;Qry_CachedUpdates;Qry_LiveUpdates;Tab_CachedUpdates;Tab_LiveUpdates"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Meta_Indices:Clean;Meta_StoredProc:Clean;Meta_Tables:Clean;Commands:Clean;GetFieldNames:Clean;Transactions:Clean;DataAdapter:Clean;DataReader:Clean;Aggregates:Clean;Blobs:Clean;Filter:Clean;MasterDetail:Clean;FetchData:Clean;Qry_CachedUpdates:Clean;Qry_LiveUpdates:Clean;Tab_CachedUpdates:Clean;Tab_LiveUpdates:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Meta_Indices:Make;Meta_StoredProc:Make;Meta_Tables:Make;Commands:Make;GetFieldNames:Make;Transactions:Make;DataAdapter:Make;DataReader:Make;Aggregates:Make;Blobs:Make;Filter:Make;MasterDetail:Make;FetchData:Make;Qry_CachedUpdates:Make;Qry_LiveUpdates:Make;Tab_CachedUpdates:Make;Tab_LiveUpdates:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
