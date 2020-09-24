@@ -1,0 +1,264 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{91A9094B-FA4D-4C63-AE88-9422CCFE1B75}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="MetaInfo\Indices\Meta_Indices.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="MetaInfo\StoredProc\Meta_StoredProc.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="MetaInfo\Tables\Meta_Tables.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TSqlClientBulkCopy\Main\BulkCopy.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TSqlClientCommand\Main\Commands.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TSqlClientConnection\GetFieldNames\GetFieldNames.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TSqlClientConnection\Transactions\Transactions.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TSqlClientDataAdapter\Main\DataAdapter.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TSqlClientDataReader\Main\DataReader.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TSqlClientQuery\Aggregates\Aggregates.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TSqlClientQuery\Blobs\Blobs.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TSqlClientQuery\Filter\Filter.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TSqlClientQuery\MasterDetail\MasterDetail.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TSqlClientQuery\OnFetchProgress\FetchData.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TSqlClientQuery\CachedUpdates\Qry_CachedUpdates.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TSqlClientQuery\LiveUpdates\Qry_LiveUpdates.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TSqlClientTable\CachedUpdates\Tab_CachedUpdates.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TSqlClientTable\LiveUpdates\Tab_LiveUpdates.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TSqlClientStoredProc\No_Parameters\StoredProcNoParams.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TSqlClientStoredProc\With_Parameters\StoredProcWithParams.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Meta_Indices">
+        <MSBuild Projects="MetaInfo\Indices\Meta_Indices.dproj"/>
+    </Target>
+    <Target Name="Meta_Indices:Clean">
+        <MSBuild Projects="MetaInfo\Indices\Meta_Indices.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Meta_Indices:Make">
+        <MSBuild Projects="MetaInfo\Indices\Meta_Indices.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Meta_StoredProc">
+        <MSBuild Projects="MetaInfo\StoredProc\Meta_StoredProc.dproj"/>
+    </Target>
+    <Target Name="Meta_StoredProc:Clean">
+        <MSBuild Projects="MetaInfo\StoredProc\Meta_StoredProc.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Meta_StoredProc:Make">
+        <MSBuild Projects="MetaInfo\StoredProc\Meta_StoredProc.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Meta_Tables">
+        <MSBuild Projects="MetaInfo\Tables\Meta_Tables.dproj"/>
+    </Target>
+    <Target Name="Meta_Tables:Clean">
+        <MSBuild Projects="MetaInfo\Tables\Meta_Tables.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Meta_Tables:Make">
+        <MSBuild Projects="MetaInfo\Tables\Meta_Tables.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="BulkCopy">
+        <MSBuild Projects="TSqlClientBulkCopy\Main\BulkCopy.dproj"/>
+    </Target>
+    <Target Name="BulkCopy:Clean">
+        <MSBuild Projects="TSqlClientBulkCopy\Main\BulkCopy.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BulkCopy:Make">
+        <MSBuild Projects="TSqlClientBulkCopy\Main\BulkCopy.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Commands">
+        <MSBuild Projects="TSqlClientCommand\Main\Commands.dproj"/>
+    </Target>
+    <Target Name="Commands:Clean">
+        <MSBuild Projects="TSqlClientCommand\Main\Commands.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Commands:Make">
+        <MSBuild Projects="TSqlClientCommand\Main\Commands.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="GetFieldNames">
+        <MSBuild Projects="TSqlClientConnection\GetFieldNames\GetFieldNames.dproj"/>
+    </Target>
+    <Target Name="GetFieldNames:Clean">
+        <MSBuild Projects="TSqlClientConnection\GetFieldNames\GetFieldNames.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GetFieldNames:Make">
+        <MSBuild Projects="TSqlClientConnection\GetFieldNames\GetFieldNames.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Transactions">
+        <MSBuild Projects="TSqlClientConnection\Transactions\Transactions.dproj"/>
+    </Target>
+    <Target Name="Transactions:Clean">
+        <MSBuild Projects="TSqlClientConnection\Transactions\Transactions.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Transactions:Make">
+        <MSBuild Projects="TSqlClientConnection\Transactions\Transactions.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DataAdapter">
+        <MSBuild Projects="TSqlClientDataAdapter\Main\DataAdapter.dproj"/>
+    </Target>
+    <Target Name="DataAdapter:Clean">
+        <MSBuild Projects="TSqlClientDataAdapter\Main\DataAdapter.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DataAdapter:Make">
+        <MSBuild Projects="TSqlClientDataAdapter\Main\DataAdapter.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DataReader">
+        <MSBuild Projects="TSqlClientDataReader\Main\DataReader.dproj"/>
+    </Target>
+    <Target Name="DataReader:Clean">
+        <MSBuild Projects="TSqlClientDataReader\Main\DataReader.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DataReader:Make">
+        <MSBuild Projects="TSqlClientDataReader\Main\DataReader.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Aggregates">
+        <MSBuild Projects="TSqlClientQuery\Aggregates\Aggregates.dproj"/>
+    </Target>
+    <Target Name="Aggregates:Clean">
+        <MSBuild Projects="TSqlClientQuery\Aggregates\Aggregates.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Aggregates:Make">
+        <MSBuild Projects="TSqlClientQuery\Aggregates\Aggregates.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Blobs">
+        <MSBuild Projects="TSqlClientQuery\Blobs\Blobs.dproj"/>
+    </Target>
+    <Target Name="Blobs:Clean">
+        <MSBuild Projects="TSqlClientQuery\Blobs\Blobs.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Blobs:Make">
+        <MSBuild Projects="TSqlClientQuery\Blobs\Blobs.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Filter">
+        <MSBuild Projects="TSqlClientQuery\Filter\Filter.dproj"/>
+    </Target>
+    <Target Name="Filter:Clean">
+        <MSBuild Projects="TSqlClientQuery\Filter\Filter.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Filter:Make">
+        <MSBuild Projects="TSqlClientQuery\Filter\Filter.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MasterDetail">
+        <MSBuild Projects="TSqlClientQuery\MasterDetail\MasterDetail.dproj"/>
+    </Target>
+    <Target Name="MasterDetail:Clean">
+        <MSBuild Projects="TSqlClientQuery\MasterDetail\MasterDetail.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MasterDetail:Make">
+        <MSBuild Projects="TSqlClientQuery\MasterDetail\MasterDetail.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="FetchData">
+        <MSBuild Projects="TSqlClientQuery\OnFetchProgress\FetchData.dproj"/>
+    </Target>
+    <Target Name="FetchData:Clean">
+        <MSBuild Projects="TSqlClientQuery\OnFetchProgress\FetchData.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FetchData:Make">
+        <MSBuild Projects="TSqlClientQuery\OnFetchProgress\FetchData.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Qry_CachedUpdates">
+        <MSBuild Projects="TSqlClientQuery\CachedUpdates\Qry_CachedUpdates.dproj"/>
+    </Target>
+    <Target Name="Qry_CachedUpdates:Clean">
+        <MSBuild Projects="TSqlClientQuery\CachedUpdates\Qry_CachedUpdates.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Qry_CachedUpdates:Make">
+        <MSBuild Projects="TSqlClientQuery\CachedUpdates\Qry_CachedUpdates.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Qry_LiveUpdates">
+        <MSBuild Projects="TSqlClientQuery\LiveUpdates\Qry_LiveUpdates.dproj"/>
+    </Target>
+    <Target Name="Qry_LiveUpdates:Clean">
+        <MSBuild Projects="TSqlClientQuery\LiveUpdates\Qry_LiveUpdates.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Qry_LiveUpdates:Make">
+        <MSBuild Projects="TSqlClientQuery\LiveUpdates\Qry_LiveUpdates.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Tab_CachedUpdates">
+        <MSBuild Projects="TSqlClientTable\CachedUpdates\Tab_CachedUpdates.dproj"/>
+    </Target>
+    <Target Name="Tab_CachedUpdates:Clean">
+        <MSBuild Projects="TSqlClientTable\CachedUpdates\Tab_CachedUpdates.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Tab_CachedUpdates:Make">
+        <MSBuild Projects="TSqlClientTable\CachedUpdates\Tab_CachedUpdates.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Tab_LiveUpdates">
+        <MSBuild Projects="TSqlClientTable\LiveUpdates\Tab_LiveUpdates.dproj"/>
+    </Target>
+    <Target Name="Tab_LiveUpdates:Clean">
+        <MSBuild Projects="TSqlClientTable\LiveUpdates\Tab_LiveUpdates.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Tab_LiveUpdates:Make">
+        <MSBuild Projects="TSqlClientTable\LiveUpdates\Tab_LiveUpdates.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="StoredProcNoParams">
+        <MSBuild Projects="TSqlClientStoredProc\No_Parameters\StoredProcNoParams.dproj"/>
+    </Target>
+    <Target Name="StoredProcNoParams:Clean">
+        <MSBuild Projects="TSqlClientStoredProc\No_Parameters\StoredProcNoParams.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="StoredProcNoParams:Make">
+        <MSBuild Projects="TSqlClientStoredProc\No_Parameters\StoredProcNoParams.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="StoredProcWithParams">
+        <MSBuild Projects="TSqlClientStoredProc\With_Parameters\StoredProcWithParams.dproj"/>
+    </Target>
+    <Target Name="StoredProcWithParams:Clean">
+        <MSBuild Projects="TSqlClientStoredProc\With_Parameters\StoredProcWithParams.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="StoredProcWithParams:Make">
+        <MSBuild Projects="TSqlClientStoredProc\With_Parameters\StoredProcWithParams.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Meta_Indices;Meta_StoredProc;Meta_Tables;BulkCopy;Commands;GetFieldNames;Transactions;DataAdapter;DataReader;Aggregates;Blobs;Filter;MasterDetail;FetchData;Qry_CachedUpdates;Qry_LiveUpdates;Tab_CachedUpdates;Tab_LiveUpdates;StoredProcNoParams;StoredProcWithParams"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Meta_Indices:Clean;Meta_StoredProc:Clean;Meta_Tables:Clean;BulkCopy:Clean;Commands:Clean;GetFieldNames:Clean;Transactions:Clean;DataAdapter:Clean;DataReader:Clean;Aggregates:Clean;Blobs:Clean;Filter:Clean;MasterDetail:Clean;FetchData:Clean;Qry_CachedUpdates:Clean;Qry_LiveUpdates:Clean;Tab_CachedUpdates:Clean;Tab_LiveUpdates:Clean;StoredProcNoParams:Clean;StoredProcWithParams:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Meta_Indices:Make;Meta_StoredProc:Make;Meta_Tables:Make;BulkCopy:Make;Commands:Make;GetFieldNames:Make;Transactions:Make;DataAdapter:Make;DataReader:Make;Aggregates:Make;Blobs:Make;Filter:Make;MasterDetail:Make;FetchData:Make;Qry_CachedUpdates:Make;Qry_LiveUpdates:Make;Tab_CachedUpdates:Make;Tab_LiveUpdates:Make;StoredProcNoParams:Make;StoredProcWithParams:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
