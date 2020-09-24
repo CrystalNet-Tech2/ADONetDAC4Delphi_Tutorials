@@ -1,5 +1,5 @@
 # ADO.Net DAC For Delphi Tutorials
-The samples in this directory use ADO.Net technology to provde the fastest and most reliable database connectivity solutions for any database in your DELPHI projects.
+The samples in this directory use ADO.Net technology to provide the fastest and most reliable database connectivity solutions for any database in your DELPHI projects.
 
 # ADO.Net DAC for Delphi
 ADO.Net DAC for Delphi provides data access to data sources such as SQL Server, Oracle, SQLite, VistaDB and to data sources exposed through OLE DB and ODBC using ADO.Net data provider framework. ADO.Net DAC for Delphi is an enterprise solution with highest performance and unlimited possibilities. Data-sharing consumer applications can use ADO.NET DAC for Delphi to connect to these data sources and retrieve, handle, and update the data that they contain.
