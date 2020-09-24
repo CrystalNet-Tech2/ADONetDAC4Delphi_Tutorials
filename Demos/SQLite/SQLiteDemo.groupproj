@@ -1,0 +1,192 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{81771F12-9F9F-462F-B5AE-A5AD9C24B368}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="MetaInfo\Indices\Meta_Indices.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="MetaInfo\Tables\Meta_Tables.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TSQLiteCommand\Main\Commands.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TSQLiteConnection\GetFieldNames\GetFieldNames.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TSQLiteConnection\Transactions\Transactions.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TSQLiteDataAdapter\Main\DataAdapter.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TSQLiteDataReader\Main\DataReader.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TSQLiteQuery\Aggregates\Aggregates.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TSQLiteQuery\Filter\Filter.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TSQLiteQuery\MasterDetail\MasterDetail.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TSQLiteQuery\CachedUpdates\Qry_CachedUpdates.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TSQLiteQuery\LiveUpdates\Qry_LiveUpdates.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TSQLiteTable\CachedUpdates\Tab_CachedUpdates.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TSQLiteTable\LiveUpdates\Tab_LiveUpdates.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Meta_Indices">
+        <MSBuild Projects="MetaInfo\Indices\Meta_Indices.dproj"/>
+    </Target>
+    <Target Name="Meta_Indices:Clean">
+        <MSBuild Projects="MetaInfo\Indices\Meta_Indices.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Meta_Indices:Make">
+        <MSBuild Projects="MetaInfo\Indices\Meta_Indices.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Meta_Tables">
+        <MSBuild Projects="MetaInfo\Tables\Meta_Tables.dproj"/>
+    </Target>
+    <Target Name="Meta_Tables:Clean">
+        <MSBuild Projects="MetaInfo\Tables\Meta_Tables.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Meta_Tables:Make">
+        <MSBuild Projects="MetaInfo\Tables\Meta_Tables.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Commands">
+        <MSBuild Projects="TSQLiteCommand\Main\Commands.dproj"/>
+    </Target>
+    <Target Name="Commands:Clean">
+        <MSBuild Projects="TSQLiteCommand\Main\Commands.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Commands:Make">
+        <MSBuild Projects="TSQLiteCommand\Main\Commands.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="GetFieldNames">
+        <MSBuild Projects="TSQLiteConnection\GetFieldNames\GetFieldNames.dproj"/>
+    </Target>
+    <Target Name="GetFieldNames:Clean">
+        <MSBuild Projects="TSQLiteConnection\GetFieldNames\GetFieldNames.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GetFieldNames:Make">
+        <MSBuild Projects="TSQLiteConnection\GetFieldNames\GetFieldNames.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Transactions">
+        <MSBuild Projects="TSQLiteConnection\Transactions\Transactions.dproj"/>
+    </Target>
+    <Target Name="Transactions:Clean">
+        <MSBuild Projects="TSQLiteConnection\Transactions\Transactions.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Transactions:Make">
+        <MSBuild Projects="TSQLiteConnection\Transactions\Transactions.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DataAdapter">
+        <MSBuild Projects="TSQLiteDataAdapter\Main\DataAdapter.dproj"/>
+    </Target>
+    <Target Name="DataAdapter:Clean">
+        <MSBuild Projects="TSQLiteDataAdapter\Main\DataAdapter.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DataAdapter:Make">
+        <MSBuild Projects="TSQLiteDataAdapter\Main\DataAdapter.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DataReader">
+        <MSBuild Projects="TSQLiteDataReader\Main\DataReader.dproj"/>
+    </Target>
+    <Target Name="DataReader:Clean">
+        <MSBuild Projects="TSQLiteDataReader\Main\DataReader.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DataReader:Make">
+        <MSBuild Projects="TSQLiteDataReader\Main\DataReader.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Aggregates">
+        <MSBuild Projects="TSQLiteQuery\Aggregates\Aggregates.dproj"/>
+    </Target>
+    <Target Name="Aggregates:Clean">
+        <MSBuild Projects="TSQLiteQuery\Aggregates\Aggregates.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Aggregates:Make">
+        <MSBuild Projects="TSQLiteQuery\Aggregates\Aggregates.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Filter">
+        <MSBuild Projects="TSQLiteQuery\Filter\Filter.dproj"/>
+    </Target>
+    <Target Name="Filter:Clean">
+        <MSBuild Projects="TSQLiteQuery\Filter\Filter.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Filter:Make">
+        <MSBuild Projects="TSQLiteQuery\Filter\Filter.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MasterDetail">
+        <MSBuild Projects="TSQLiteQuery\MasterDetail\MasterDetail.dproj"/>
+    </Target>
+    <Target Name="MasterDetail:Clean">
+        <MSBuild Projects="TSQLiteQuery\MasterDetail\MasterDetail.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MasterDetail:Make">
+        <MSBuild Projects="TSQLiteQuery\MasterDetail\MasterDetail.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Qry_CachedUpdates">
+        <MSBuild Projects="TSQLiteQuery\CachedUpdates\Qry_CachedUpdates.dproj"/>
+    </Target>
+    <Target Name="Qry_CachedUpdates:Clean">
+        <MSBuild Projects="TSQLiteQuery\CachedUpdates\Qry_CachedUpdates.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Qry_CachedUpdates:Make">
+        <MSBuild Projects="TSQLiteQuery\CachedUpdates\Qry_CachedUpdates.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Qry_LiveUpdates">
+        <MSBuild Projects="TSQLiteQuery\LiveUpdates\Qry_LiveUpdates.dproj"/>
+    </Target>
+    <Target Name="Qry_LiveUpdates:Clean">
+        <MSBuild Projects="TSQLiteQuery\LiveUpdates\Qry_LiveUpdates.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Qry_LiveUpdates:Make">
+        <MSBuild Projects="TSQLiteQuery\LiveUpdates\Qry_LiveUpdates.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Tab_CachedUpdates">
+        <MSBuild Projects="TSQLiteTable\CachedUpdates\Tab_CachedUpdates.dproj"/>
+    </Target>
+    <Target Name="Tab_CachedUpdates:Clean">
+        <MSBuild Projects="TSQLiteTable\CachedUpdates\Tab_CachedUpdates.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Tab_CachedUpdates:Make">
+        <MSBuild Projects="TSQLiteTable\CachedUpdates\Tab_CachedUpdates.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Tab_LiveUpdates">
+        <MSBuild Projects="TSQLiteTable\LiveUpdates\Tab_LiveUpdates.dproj"/>
+    </Target>
+    <Target Name="Tab_LiveUpdates:Clean">
+        <MSBuild Projects="TSQLiteTable\LiveUpdates\Tab_LiveUpdates.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Tab_LiveUpdates:Make">
+        <MSBuild Projects="TSQLiteTable\LiveUpdates\Tab_LiveUpdates.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Meta_Indices;Meta_Tables;Commands;GetFieldNames;Transactions;DataAdapter;DataReader;Aggregates;Filter;MasterDetail;Qry_CachedUpdates;Qry_LiveUpdates;Tab_CachedUpdates;Tab_LiveUpdates"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Meta_Indices:Clean;Meta_Tables:Clean;Commands:Clean;GetFieldNames:Clean;Transactions:Clean;DataAdapter:Clean;DataReader:Clean;Aggregates:Clean;Filter:Clean;MasterDetail:Clean;Qry_CachedUpdates:Clean;Qry_LiveUpdates:Clean;Tab_CachedUpdates:Clean;Tab_LiveUpdates:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Meta_Indices:Make;Meta_Tables:Make;Commands:Make;GetFieldNames:Make;Transactions:Make;DataAdapter:Make;DataReader:Make;Aggregates:Make;Filter:Make;MasterDetail:Make;Qry_CachedUpdates:Make;Qry_LiveUpdates:Make;Tab_CachedUpdates:Make;Tab_LiveUpdates:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
